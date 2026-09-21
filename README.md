@@ -2,7 +2,7 @@ PROCESS PLANNING AND PLANT LAYOUT
 FOR TRANSMISSION SHAFT
 1. Introduction
 This document presents the complete process planning and plant layout for the manufacture of a Transmission Shaft using CNC and NC machines. The objective is to achieve efficient material flow, high productivity, and safe working conditions.
-2. Product Description
+2. Product Description 
 Product: Transmission Shaft
 Function: Transmits torque and rotary motion
 Application: Automotive and industrial machinery
