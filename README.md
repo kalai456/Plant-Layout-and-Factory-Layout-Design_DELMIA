@@ -412,7 +412,7 @@ INSPECTION
         ↓
 FINISHED GOODS STORAGE
 
-<img width="1600" height="901" alt="image" src="https://github.com/user-attachments/assets/a60791cd-1ca1-4aee-82de-3261011e4bde" />
+<img width="1600" height="780" alt="657766401-a60791cd-1ca1-4aee-82de-3261011e4bde" src="https://github.com/user-attachments/assets/f6f0dbdb-97da-4545-856e-d228c5aca574" />
 
 Conclusion : 
 The CNC-based process planning and well-organized plant layout ensure efficient production of transmission shafts with consistent quality, reduced cycle time, and improved safety.
