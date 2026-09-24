@@ -1,8 +1,9 @@
-PROCESS PLANNING AND 3D PLANT LAYOUT DESIGN OF A TRANSMISSION SHAFT MANUFACTURING PLANT USING DELMIA
+PROCESS PLANNING AND SIMULATION OF A TRANSMISSION SHAFT MANUFACTURING PLANT USING DELMIA
+
 
 1. AIM
 
-To develop the process plan and plant layout for the batch production of a transmission shaft using CNC and NC machining operations, and to model the manufacturing plant layout using DELMIA for efficient material flow, minimum material handling, improved productivity, and safe working conditions.
+To develop the process plan and simulate the plant layout for the batch production of a transmission shaft using CNC and NC machining operations, and to create a virtual manufacturing environment using DELMIA for studying material flow, machine arrangement, material handling, productivity, and workplace safety.
 
 
 2. OBJECTIVES
@@ -12,11 +13,11 @@ To develop the process plan and plant layout for the batch production of a trans
 3. To prepare a suitable process sequence for batch production.
 4. To identify the machines, equipment, storage areas, and inspection facilities required.
 5. To estimate the approximate manufacturing cycle time.
-6. To design the plant layout using DELMIA Plant Layout Design.
-7. To provide smooth material flow between different manufacturing stations.
-8. To minimize unnecessary material movement and handling.
-9. To incorporate safety fencing and operator working areas.
-10. To provide suitable raw-material and finished-product storage areas.
+6. To simulate the plant layout using DELMIA Plant Layout Design.
+7. To study the material flow between different manufacturing stations.
+8. To analyze unnecessary material movement and handling.
+9. To incorporate safety fencing and operator working areas in the virtual plant.
+10. To visualize the complete manufacturing plant in a 3D simulation environment.
 
 
 3. INTRODUCTION
@@ -25,9 +26,11 @@ A transmission shaft is a rotating mechanical component used to transmit torque 
 
 For batch production, CNC and NC machining are suitable because they provide good dimensional accuracy, repeatability, and productivity.
 
-In this work, a manufacturing plant for transmission shafts is considered. The complete manufacturing system consists of raw material storage, material cutting, CNC turning, NC machining, drilling or tapping, finishing, deburring, inspection, and finished-product storage.
+In this work, a virtual manufacturing plant for transmission shafts is considered. The complete manufacturing system consists of raw material storage, material cutting, CNC turning, NC machining, drilling or tapping, finishing, deburring, inspection, and finished-product storage.
 
-The plant layout is developed using DELMIA Plant Layout Design. The layout includes machines, conveyors, storage racks, inspection areas, and safety fencing to represent a practical manufacturing environment.
+The plant layout is simulated using DELMIA Plant Layout Design. The simulation includes machines, conveyors, storage racks, inspection areas, operator areas, and safety fencing to represent a practical manufacturing environment.
+
+The DELMIA simulation helps in visualizing the arrangement of manufacturing resources and studying the movement of material through the proposed production system before physical implementation.
 
 
 4. PRODUCT DESCRIPTION
@@ -227,11 +230,11 @@ Parameters Checked:
 Only components satisfying the specified dimensional and quality requirements are transferred to the finished-goods storage area.
 
 
-11. PLANT LAYOUT PLANNING
+11. PLANT LAYOUT SIMULATION
 
-The plant layout is designed according to the sequence of manufacturing operations.
+The plant layout is simulated according to the sequence of manufacturing operations.
 
-The major areas considered in the plant layout are:
+The major areas considered in the simulation are:
 
 1. Raw Material Storage Area
 2. Cutting Area
@@ -244,17 +247,17 @@ The major areas considered in the plant layout are:
 9. Safety Fencing
 
 
-12. DESCRIPTION OF PLANT LAYOUT
+12. DESCRIPTION OF SIMULATED PLANT LAYOUT
 
 
 12.1 RAW MATERIAL STORAGE AREA
 
-The raw material storage area is provided for storing incoming EN8 round bars before processing.
+The raw material storage area is represented in the DELMIA simulation for storing incoming EN8 round bars before processing.
 
 
 12.2 CUTTING AREA
 
-The band saw machine is positioned near the raw material storage area to reduce material transportation distance.
+The band saw machine is positioned near the raw material storage area in the virtual plant to reduce material transportation distance.
 
 
 12.3 CNC MACHINING AREA
@@ -269,7 +272,7 @@ The NC/conventional machine is provided for secondary operations such as drillin
 
 12.5 CONVEYOR SYSTEM
 
-A conveyor system is provided for controlled movement of components between manufacturing stations and to reduce manual material handling.
+A conveyor system is represented in the DELMIA simulation for controlled movement of components between manufacturing stations and to reduce manual material handling.
 
 
 12.6 INSPECTION AREA
@@ -279,17 +282,17 @@ The inspection area consists of an inspection table and measuring instruments su
 
 12.7 FINISHED GOODS STORAGE
 
-The finished-goods storage area is provided for storing inspected and accepted transmission shafts before dispatch.
+The finished-goods storage area is represented in the simulated plant for storing inspected and accepted transmission shafts before dispatch.
 
 
 12.8 SAFETY FENCING
 
-Safety fencing is provided around the machine and manufacturing areas to separate operators from hazardous machine zones and to improve workplace safety.
+Safety fencing is incorporated into the virtual plant layout around the machine and manufacturing areas to separate operators from hazardous machine zones and to improve workplace safety.
 
 
 13. MATERIAL FLOW
 
-The planned material flow is:
+The simulated material flow is:
 
 Raw Material Storage
         ↓
@@ -305,14 +308,14 @@ Inspection
         ↓
 Finished Goods Storage
 
-The arrangement provides a logical forward flow of material and reduces unnecessary backtracking and material handling.
+The simulated arrangement provides a logical forward flow of material and helps in studying unnecessary backtracking and material handling.
 
 
-14. DELMIA PLANT LAYOUT DESIGN
+14. DELMIA PLANT LAYOUT SIMULATION
 
-The plant layout is developed using DELMIA Plant Layout Design.
+The plant layout is simulated using DELMIA Plant Layout Design.
 
-The following elements are represented in the DELMIA model:
+The following elements are represented in the DELMIA simulation:
 
 • Manufacturing machines
 • CNC Turning Centre
@@ -326,21 +329,25 @@ The following elements are represented in the DELMIA model:
 • Raw Material Storage
 • Finished Goods Storage
 
-The layout is represented as a 3D manufacturing environment, allowing the arrangement of machines, equipment, safety zones, storage areas, and material-flow paths to be visualized before actual plant implementation.
+The layout is represented as a 3D virtual manufacturing environment, allowing the arrangement of machines, equipment, safety zones, storage areas, and material-flow paths to be visualized and studied before actual plant implementation.
 
 
-15. DELMIA LAYOUT
+15. DELMIA SIMULATION
 
-The developed DELMIA layout represents the proposed transmission shaft manufacturing facility. The machine arrangement, safety fencing, conveyor system, storage racks, and inspection area are positioned to represent a practical batch-production environment.
+The developed DELMIA simulation represents the proposed transmission shaft manufacturing facility.
 
-Figure 1: 3D Plant Layout of Transmission Shaft Manufacturing Facility Developed Using DELMIA
+The machine arrangement, safety fencing, conveyor system, storage racks, and inspection area are positioned in the virtual environment to represent a practical batch-production system.
 
-[INSERT DELMIA PLANT LAYOUT IMAGE HERE]
+The simulation provides a 3D visualization of the proposed manufacturing facility and helps in understanding the arrangement and movement of resources within the plant.
+
+Figure 1: 3D Simulation of Transmission Shaft Manufacturing Plant Using DELMIA
+
+[INSERT DELMIA SIMULATION IMAGE HERE]
 
 
 16. SAFETY CONSIDERATIONS
 
-The following safety measures are incorporated into the proposed plant layout:
+The following safety measures are incorporated into the simulated plant layout:
 
 1. Safety fencing around hazardous machine areas.
 2. Adequate space for operator movement.
@@ -352,40 +359,40 @@ The following safety measures are incorporated into the proposed plant layout:
 8. Safe positioning of conveyors and storage racks.
 
 
-17. ADVANTAGES OF THE PROPOSED LAYOUT
+17. ADVANTAGES OF THE DELMIA SIMULATION
 
-1. Smooth material flow from raw material to finished product.
-2. Reduced unnecessary material handling.
-3. Better utilization of available floor space.
-4. Improved operator accessibility.
-5. Clear separation of manufacturing and inspection areas.
-6. Improved workplace safety through safety fencing.
-7. Easier supervision of the manufacturing process.
-8. Convenient storage of raw materials and finished products.
-9. Better organization of machines and equipment.
-10. Suitable arrangement for batch production.
+1. Provides a 3D visualization of the manufacturing plant.
+2. Helps in understanding the arrangement of machines and equipment.
+3. Enables visualization of material flow.
+4. Helps identify unnecessary material movement.
+5. Provides better understanding of space utilization.
+6. Allows safety fencing and operator areas to be represented.
+7. Helps in studying the manufacturing system before physical implementation.
+8. Improves understanding of the relationship between machines, storage, conveyors, and inspection areas.
+9. Supports planning of an organized manufacturing environment.
+10. Provides a virtual representation of the proposed batch-production system.
 
 
 18. RESULT
 
-A process plan and 3D plant layout for batch production of transmission shafts were successfully developed.
+The process plan and 3D plant layout simulation for batch production of transmission shafts were successfully developed using DELMIA.
 
 The manufacturing sequence was established from raw-material cutting through CNC turning, secondary machining, deburring, inspection, and finished-product storage.
 
-The plant layout was modelled using DELMIA Plant Layout Design, incorporating machines, conveyors, storage racks, inspection facilities, operator areas, and safety fencing.
+A virtual manufacturing environment was created using DELMIA Plant Layout Design, incorporating machines, conveyors, storage racks, inspection facilities, operator areas, and safety fencing.
 
-The proposed layout provides systematic material flow and an organized manufacturing environment suitable for transmission-shaft production.
+The simulation successfully represents the proposed manufacturing system and provides a clear visualization of material flow, machine arrangement, and plant organization.
 
 
 19. CONCLUSION
 
-The transmission shaft manufacturing plant was successfully planned using suitable CNC and NC machining operations. EN8 / AISI 1040 steel was selected as the raw material based on its strength, machinability, and suitability for shaft manufacturing.
+The transmission shaft manufacturing process was successfully planned and simulated using suitable CNC and NC machining operations. EN8 / AISI 1040 steel was selected as the raw material based on its strength, machinability, and suitability for shaft manufacturing.
 
 The proposed process sequence consists of cutting, facing, rough turning, step and profile turning, grooving, chamfering, drilling/tapping, finish turning, deburring, and inspection.
 
-The DELMIA Plant Layout Design provides a 3D representation of the manufacturing facility and enables the arrangement of machines, material-handling systems, storage areas, inspection facilities, and safety zones to be visualized.
+The DELMIA Plant Layout Design was used to create a 3D virtual simulation of the manufacturing facility. The simulation represents the arrangement of machines, material-handling systems, storage areas, inspection facilities, operator areas, and safety zones.
 
-The proposed arrangement supports smooth material flow, reduced unnecessary handling, organized production, improved workplace safety, and efficient batch manufacturing of transmission shafts.
+The developed simulation provides a clear visualization of the proposed manufacturing system and helps in studying material flow, machine arrangement, space utilization, and workplace safety before actual plant implementation.
 
 
 20. OVERALL PROCESS FLOW
@@ -412,6 +419,16 @@ INSPECTION
         ↓
 FINISHED GOODS STORAGE
 
+
+Figure 1: DELMIA 3D Simulation of Transmission Shaft Manufacturing Plant
+
+
+[INSERT DELMIA SIMULATION IMAGE HERE]
+
+
+FINAL CONCLUSION
+
+The CNC-based process planning and DELMIA-based 3D simulation provide a virtual representation of the transmission shaft manufacturing system. The simulated plant layout demonstrates the arrangement of machines, material flow, storage facilities, inspection areas, conveyors, and safety fencing, providing a better understanding of the proposed manufacturing process before physical implementation.
 <img width="1600" height="749" alt="657766401-a60791cd-1ca1-4aee-82de-3261011e4bde" src="https://github.com/user-attachments/assets/d08c07e9-2437-4168-82e1-09e15d5982d0" />
 
 
