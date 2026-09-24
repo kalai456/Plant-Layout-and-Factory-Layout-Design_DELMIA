@@ -1,47 +1,416 @@
-PROCESS PLANNING AND PLANT LAYOUT FOR TRANSMISSION SHAFT
+PROCESS PLANNING AND 3D PLANT LAYOUT DESIGN OF A TRANSMISSION SHAFT MANUFACTURING PLANT USING DELMIA
 
-Introduction: This document presents the complete process planning and plant layout for the manufacture of a Transmission Shaft using CNC and NC machines. The objective is to achieve efficient material flow, high productivity, and safe working conditions.
+1. AIM
 
-Product Description Product: Transmission Shaft 
+To develop the process plan and plant layout for the batch production of a transmission shaft using CNC and NC machining operations, and to model the manufacturing plant layout using DELMIA for efficient material flow, minimum material handling, improved productivity, and safe working conditions.
+
+
+2. OBJECTIVES
+
+1. To study the manufacturing process of a transmission shaft.
+2. To select suitable material and manufacturing operations.
+3. To prepare a suitable process sequence for batch production.
+4. To identify the machines, equipment, storage areas, and inspection facilities required.
+5. To estimate the approximate manufacturing cycle time.
+6. To design the plant layout using DELMIA Plant Layout Design.
+7. To provide smooth material flow between different manufacturing stations.
+8. To minimize unnecessary material movement and handling.
+9. To incorporate safety fencing and operator working areas.
+10. To provide suitable raw-material and finished-product storage areas.
+
+
+3. INTRODUCTION
+
+A transmission shaft is a rotating mechanical component used to transmit torque and rotary motion from one component to another. Transmission shafts are widely used in automobiles, industrial machinery, gearboxes, pumps, and other power-transmission systems.
+
+For batch production, CNC and NC machining are suitable because they provide good dimensional accuracy, repeatability, and productivity.
+
+In this work, a manufacturing plant for transmission shafts is considered. The complete manufacturing system consists of raw material storage, material cutting, CNC turning, NC machining, drilling or tapping, finishing, deburring, inspection, and finished-product storage.
+
+The plant layout is developed using DELMIA Plant Layout Design. The layout includes machines, conveyors, storage racks, inspection areas, and safety fencing to represent a practical manufacturing environment.
+
+
+4. PRODUCT DESCRIPTION
+
+Product: Transmission Shaft
 
 Function: Transmits torque and rotary motion
 
-Application: Automotive and industrial machinery
+Applications: Automotive and industrial machinery
 
-Production Type: Batch production Manufacturing
+Production Type: Batch Production
 
-Method: CNC Turning and NC machining
+Manufacturing Method: CNC Turning and NC Machining
 
-Material Selection Material Selected: EN8 / AISI 1040 Steel Reason: High strength, good machinability, and suitability for CNC finish turning. Raw Material Form: Hot rolled round bar.
+Material: EN8 / AISI 1040 Steel
 
-Process Planning The transmission shaft is manufactured using CNC and NC machines without grinding. Surface finish and dimensional accuracy are achieved through finish turning operations. Manufacturing Steps:
+Raw Material Form: Hot-rolled round bar
 
-Raw material cutting using band saw
 
-Facing and centering on CNC turning centre
+5. MATERIAL SELECTION
 
-Rough turning
+Material Selected: EN8 / AISI 1040 Steel
 
-Step and profile turning
+EN8 steel is selected for the transmission shaft because it provides a suitable combination of strength, toughness, machinability, and wear resistance. It is also suitable for machining operations such as turning and drilling.
 
-Grooving and chamfering
+Raw Material Form: Hot-rolled round bar
 
-Drilling or tapping (if required)
-Finish turning
 
+6. PROCESS PLANNING
+
+The transmission shaft is manufactured using a sequence of machining and finishing operations.
+
+PROCESS FLOW:
+
+Raw Material Storage
+        ↓
+Material Cutting – Band Saw
+        ↓
+Facing and Centering – CNC Turning Centre
+        ↓
+Rough Turning
+        ↓
+Step and Profile Turning
+        ↓
+Grooving and Chamfering
+        ↓
+Drilling / Tapping – If Required
+        ↓
+Finish Turning
+        ↓
 Deburring
-
+        ↓
 Inspection
+        ↓
+Finished Goods Storage
 
-Machines Used • Band Saw Machine • CNC Turning Centre • NC / Conventional Machine • Inspection table with gauges
 
-Time Estimation (Approximate) Cutting: 4 min Facing & Turning: 35 min Drilling/Tapping: 6 min Deburring & Inspection: 9 min Total Cycle Time per Component: ~54 minutes
+7. MANUFACTURING OPERATIONS
 
-Quality Control Inspection is carried out using vernier calipers, micrometers, and dial gauges. Parameters checked include diameter, length, runout, and surface finish.
 
-Plant Layout The plant layout is designed to ensure smooth material flow, minimum handling time, and operator safety.
-The layout includes designated areas for raw material storage, CNC machining, NC machining, conveyors, inspection, and finished goods storage.
-The plant layout design is prepared using DELMIA Plant Layout Design and is shown in the figure below. The uploaded layout image represents the top-view arrangement of machines, safety fencing, conveyor system, storage racks, and inspection area.
+7.1 RAW MATERIAL STORAGE
+
+The hot-rolled EN8 round bars are received and stored in the designated raw-material storage area.
+
+The storage area is positioned near the material-cutting station to reduce unnecessary material movement.
+
+
+7.2 MATERIAL CUTTING
+
+The raw material is cut into the required lengths using a band saw machine.
+
+Purpose:
+
+• To obtain blanks of suitable length.
+• To prepare the material for CNC machining.
+• To reduce material wastage.
+
+Machine Used: Band Saw Machine
+
+
+7.3 FACING AND CENTERING
+
+The cut blank is transferred to the CNC turning centre. Facing is carried out to obtain a flat reference surface. Centering may be performed to establish the required reference for subsequent machining operations.
+
+Machine Used: CNC Turning Centre
+
+
+7.4 ROUGH TURNING
+
+The outer diameter of the shaft blank is reduced to the required approximate dimensions. Rough turning removes excess material while maintaining sufficient allowance for finishing.
+
+Machine Used: CNC Turning Centre
+
+
+7.5 STEP AND PROFILE TURNING
+
+Different shaft diameters and profiles are produced according to the component design.
+
+This operation produces:
+
+• Steps
+• Shoulders
+• Different diameters
+• Required shaft profile
+
+Machine Used: CNC Turning Centre
+
+
+7.6 GROOVING AND CHAMFERING
+
+Grooves are produced at the specified locations. Chamfering is carried out to remove sharp edges and provide smooth transitions between surfaces.
+
+Machine Used: CNC Turning Centre / NC Machine
+
+
+7.7 DRILLING AND TAPPING
+
+If the shaft design requires holes or threaded features, drilling and tapping operations are performed.
+
+Machine Used: NC / Conventional Machine
+
+
+7.8 FINISH TURNING
+
+Finish turning is carried out to achieve the required diameter, length, dimensional accuracy, and surface finish.
+
+In this process plan, grinding is not considered. The required dimensional accuracy and surface finish are achieved through suitable finish-turning operations.
+
+Machine Used: CNC Turning Centre
+
+
+7.9 DEBURRING
+
+After machining, burrs and sharp edges are removed manually or using suitable deburring tools.
+
+Deburring improves component safety, surface quality, and handling safety.
+
+
+7.10 INSPECTION
+
+The finished shaft is transferred to the inspection area. The component is checked for dimensional accuracy and manufacturing quality before being transferred to the finished-goods storage area.
+
+
+8. MACHINES AND EQUIPMENT REQUIRED
+
+1. Band Saw Machine – Cutting raw material
+2. CNC Turning Centre – Facing, rough turning, profile turning and finish turning
+3. NC / Conventional Machine – Drilling and tapping
+4. Deburring Station – Removal of burrs and sharp edges
+5. Inspection Table – Dimensional inspection
+6. Vernier Caliper – Measurement of dimensions
+7. Micrometer – Accurate diameter measurement
+8. Dial Gauge – Runout and alignment inspection
+9. Conveyor – Material and component movement
+10. Storage Rack – Raw and finished material storage
+11. Safety Fence – Machine and operator safety
+
+
+9. TIME ESTIMATION
+
+Operation                         Approximate Time
+
+Raw Material Cutting             4 min
+Facing and Turning               35 min
+Drilling / Tapping               6 min
+Deburring and Inspection         9 min
+
+Total Cycle Time                 54 min/component
+
+Therefore, the approximate total cycle time for one transmission shaft is 54 minutes per component.
+
+Note: The above values are approximate planning values and may vary depending on shaft dimensions, machine capacity, cutting parameters, tooling, batch size, and operator handling time.
+
+
+10. QUALITY CONTROL
+
+Quality inspection is carried out at the inspection station after machining.
+
+Inspection Instruments:
+
+• Vernier Caliper
+• Outside Micrometer
+• Dial Gauge
+• Surface-finish checking equipment, where required
+
+Parameters Checked:
+
+1. Shaft diameter
+2. Overall length
+3. Step dimensions
+4. Groove dimensions
+5. Concentricity and runout
+6. Surface condition
+7. Chamfer dimensions
+8. Visual defects
+
+Only components satisfying the specified dimensional and quality requirements are transferred to the finished-goods storage area.
+
+
+11. PLANT LAYOUT PLANNING
+
+The plant layout is designed according to the sequence of manufacturing operations.
+
+The major areas considered in the plant layout are:
+
+1. Raw Material Storage Area
+2. Cutting Area
+3. CNC Machining Area
+4. NC Machining Area
+5. Conveyor System
+6. Deburring Area
+7. Inspection Area
+8. Finished Goods Storage Area
+9. Safety Fencing
+
+
+12. DESCRIPTION OF PLANT LAYOUT
+
+
+12.1 RAW MATERIAL STORAGE AREA
+
+The raw material storage area is provided for storing incoming EN8 round bars before processing.
+
+
+12.2 CUTTING AREA
+
+The band saw machine is positioned near the raw material storage area to reduce material transportation distance.
+
+
+12.3 CNC MACHINING AREA
+
+The CNC turning centre is positioned after the cutting station because the major machining operations are performed on the cut blanks.
+
+
+12.4 NC MACHINING AREA
+
+The NC/conventional machine is provided for secondary operations such as drilling and tapping, wherever required.
+
+
+12.5 CONVEYOR SYSTEM
+
+A conveyor system is provided for controlled movement of components between manufacturing stations and to reduce manual material handling.
+
+
+12.6 INSPECTION AREA
+
+The inspection area consists of an inspection table and measuring instruments such as vernier calipers, micrometers, and dial gauges.
+
+
+12.7 FINISHED GOODS STORAGE
+
+The finished-goods storage area is provided for storing inspected and accepted transmission shafts before dispatch.
+
+
+12.8 SAFETY FENCING
+
+Safety fencing is provided around the machine and manufacturing areas to separate operators from hazardous machine zones and to improve workplace safety.
+
+
+13. MATERIAL FLOW
+
+The planned material flow is:
+
+Raw Material Storage
+        ↓
+Band Saw Cutting
+        ↓
+CNC Turning Centre
+        ↓
+NC Machining
+        ↓
+Deburring
+        ↓
+Inspection
+        ↓
+Finished Goods Storage
+
+The arrangement provides a logical forward flow of material and reduces unnecessary backtracking and material handling.
+
+
+14. DELMIA PLANT LAYOUT DESIGN
+
+The plant layout is developed using DELMIA Plant Layout Design.
+
+The following elements are represented in the DELMIA model:
+
+• Manufacturing machines
+• CNC Turning Centre
+• NC / Conventional Machine
+• Conveyor System
+• Storage Racks
+• Inspection Table
+• Operator Areas
+• Safety Fencing
+• Material Handling Areas
+• Raw Material Storage
+• Finished Goods Storage
+
+The layout is represented as a 3D manufacturing environment, allowing the arrangement of machines, equipment, safety zones, storage areas, and material-flow paths to be visualized before actual plant implementation.
+
+
+15. DELMIA LAYOUT
+
+The developed DELMIA layout represents the proposed transmission shaft manufacturing facility. The machine arrangement, safety fencing, conveyor system, storage racks, and inspection area are positioned to represent a practical batch-production environment.
+
+Figure 1: 3D Plant Layout of Transmission Shaft Manufacturing Facility Developed Using DELMIA
+
+[INSERT DELMIA PLANT LAYOUT IMAGE HERE]
+
+
+16. SAFETY CONSIDERATIONS
+
+The following safety measures are incorporated into the proposed plant layout:
+
+1. Safety fencing around hazardous machine areas.
+2. Adequate space for operator movement.
+3. Proper separation between machines and walkways.
+4. Controlled material movement.
+5. Proper storage of raw materials.
+6. Removal of sharp edges and burrs.
+7. Clear access to inspection and maintenance areas.
+8. Safe positioning of conveyors and storage racks.
+
+
+17. ADVANTAGES OF THE PROPOSED LAYOUT
+
+1. Smooth material flow from raw material to finished product.
+2. Reduced unnecessary material handling.
+3. Better utilization of available floor space.
+4. Improved operator accessibility.
+5. Clear separation of manufacturing and inspection areas.
+6. Improved workplace safety through safety fencing.
+7. Easier supervision of the manufacturing process.
+8. Convenient storage of raw materials and finished products.
+9. Better organization of machines and equipment.
+10. Suitable arrangement for batch production.
+
+
+18. RESULT
+
+A process plan and 3D plant layout for batch production of transmission shafts were successfully developed.
+
+The manufacturing sequence was established from raw-material cutting through CNC turning, secondary machining, deburring, inspection, and finished-product storage.
+
+The plant layout was modelled using DELMIA Plant Layout Design, incorporating machines, conveyors, storage racks, inspection facilities, operator areas, and safety fencing.
+
+The proposed layout provides systematic material flow and an organized manufacturing environment suitable for transmission-shaft production.
+
+
+19. CONCLUSION
+
+The transmission shaft manufacturing plant was successfully planned using suitable CNC and NC machining operations. EN8 / AISI 1040 steel was selected as the raw material based on its strength, machinability, and suitability for shaft manufacturing.
+
+The proposed process sequence consists of cutting, facing, rough turning, step and profile turning, grooving, chamfering, drilling/tapping, finish turning, deburring, and inspection.
+
+The DELMIA Plant Layout Design provides a 3D representation of the manufacturing facility and enables the arrangement of machines, material-handling systems, storage areas, inspection facilities, and safety zones to be visualized.
+
+The proposed arrangement supports smooth material flow, reduced unnecessary handling, organized production, improved workplace safety, and efficient batch manufacturing of transmission shafts.
+
+
+20. OVERALL PROCESS FLOW
+
+RAW MATERIAL STORAGE
+        ↓
+BAND SAW CUTTING
+        ↓
+CNC FACING AND CENTERING
+        ↓
+ROUGH TURNING
+        ↓
+STEP / PROFILE TURNING
+        ↓
+GROOVING AND CHAMFERING
+        ↓
+DRILLING / TAPPING
+        ↓
+FINISH TURNING
+        ↓
+DEBURRING
+        ↓
+INSPECTION
+        ↓
+FINISHED GOODS STORAGE
 
 <img width="1600" height="901" alt="image" src="https://github.com/user-attachments/assets/a60791cd-1ca1-4aee-82de-3261011e4bde" />
 
